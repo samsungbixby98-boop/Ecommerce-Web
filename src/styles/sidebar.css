@@ -1,38 +1,40 @@
 .sidebar {
   width: 240px;
   height: 100vh;
-  background: linear-gradient(180deg, #111827, #0f172a);
-  color: white;
-  padding: 20px;
+  background: #0a0a0a;   /* solid black */
+  padding: 25px;
   position: fixed;
+  border-right: 1px solid #222;
 }
 
 .logo {
   font-size: 22px;
   font-weight: bold;
   margin-bottom: 40px;
+  color: white;
+  letter-spacing: 1px;
 }
 
 .menu {
   list-style: none;
-  padding: 0;
 }
 
 .menu li {
-  padding: 12px 10px;
+  padding: 12px;
   margin-bottom: 15px;
   border-radius: 8px;
   cursor: pointer;
-  color: #cbd5e1;
+  color: #cfcfcf;
   transition: 0.3s;
 }
 
 .menu li:hover {
-  background: #1e293b;
+  background: #2a2a2a;
   color: white;
 }
 
 .menu .active {
-  background: linear-gradient(90deg, #7c3aed, #3b82f6);
-  color: white;
+  background: white;
+  color: black;
+  font-weight: bold;
 }

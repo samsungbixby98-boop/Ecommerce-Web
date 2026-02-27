@@ -11,9 +11,8 @@ const Sidebar = () => {
         <li>Items</li>
         <li>Analytics</li>
         <li>Orders</li>
-        <li>Customers</li>
         <li>Cart</li>
-        <li>Activity</li>
+        <li>Settings</li>
       </ul>
     </div>
   );

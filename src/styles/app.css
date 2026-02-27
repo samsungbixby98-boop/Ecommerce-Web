@@ -207,7 +207,7 @@ body {
 .cartPill {
   padding: 10px 12px;
   border-radius: 999px;
-  background: white;
+  background: rgb(186, 220, 233);
   border: 1px solid rgba(0,0,0,0.08);
   box-shadow: 0 8px 16px rgba(0,0,0,0.10);
 }
@@ -242,3 +242,15 @@ body {
 }
 
 .price { font-weight: bold; color: #1f1f1f; }
+.appLayout {
+  display: flex;
+}
+
+.mainContent {
+  margin-left: 240px;
+  padding: 20px;
+  width: 100%;
+  background: #0f172a;
+  min-height: 100vh;
+  color: white;
+}

@@ -62,8 +62,8 @@ export default function AuthPage({ registeredUser, onSignUp, onLogin }) {
       <header className="brandHeader">
         <div className="brandLogo">🛒</div>
         <div>
-          <h1 className="brandTitle">ShopEZ</h1>
-          <p className="brandTag">Frontend-only Ecommerce Demo (React + Vite)</p>
+          <h1 className="brandTitle">ISHMART STORE</h1>
+          <p className="brandTag">BE SMART</p>
         </div>
       </header>
 

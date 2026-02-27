@@ -6,7 +6,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
-import "./styles/app.css"; // External CSS for the whole app (Module A styling)
+import "./styles/app.css";
+ // External CSS for the whole app (Module A styling)
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

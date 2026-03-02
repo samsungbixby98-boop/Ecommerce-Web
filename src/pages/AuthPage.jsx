@@ -127,8 +127,8 @@ export default function AuthPage({ registeredUser, onSignUp, onLogin }) {
         </section>
 
         <section className="card cardAlt">
-          <h2 className="cardTitle">New here?</h2>
-          <p className="text">Create an account to continue (no backend).</p>
+          <h2 className="cardTitle">Chetaa 😎</h2>
+          <p className="text">Create an account (If new to web).</p>
 
           <button className="btnOutline" onClick={() => setIsSignUpOpen(true)}>
             Sign Up

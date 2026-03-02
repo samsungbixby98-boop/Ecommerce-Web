@@ -14,7 +14,7 @@ export default function DashboardPage({ user, products, cartCount, onAddToCart, 
         <div>
           <h2 className="dashTitle">Dashboard</h2>
           <p className="dashSub">
-            Welcome <b>{user?.email}</b> 👋
+            Vanakkam <b>{user?.email}</b> 👋
           </p>
         </div>
 
